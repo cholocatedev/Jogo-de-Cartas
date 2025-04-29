@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Definindo uma estrutura para armazenar os dados de uma carta
+// Definindo uma estrutura para armazenar os dados de uma carta especifica
 struct Carta {
     char estado;
     char codigo[4];
@@ -10,7 +10,7 @@ struct Carta {
     float pib;
     int pontosTuristicos;
 };
-
+// Definindo as castas dentro da "estrutura" Carta
 int main() {
     struct Carta carta1, carta2;
 
